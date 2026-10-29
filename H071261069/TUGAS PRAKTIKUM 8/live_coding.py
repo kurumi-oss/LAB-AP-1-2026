@@ -23,18 +23,14 @@ nomor = cari_nomor(pesan)
 
 if angka and email and nomor:
     print()
-    print(f"Angka ditemukan       : {angka}")
-    print(f"Email ditemukan       : {email}")
+    print("=== HASIL PENCARIAN ===")
+    print(f"Angka ditemukan: {angka}")
+    print(f"Email ditemukan: {email}")
     print(f"Nomor telepon ditemukan: {nomor}")
 else:
     print("Tidak ada data yang ditemukan.")
 
 if angka and email and nomor:
-    print()
-    print("=== HASIL PENCARIAN ===")
-    print(f"Angka ditemukan : {angka}")
-    print(f"Email ditemukan: {email}")
-    print(f"Nomor telpon ditemukan: {nomor}")
     print()
     print(f"Jumlah angka: {len(angka)}")
     print(f"Jumlah email: {len(email)}")
